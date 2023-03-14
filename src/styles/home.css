@@ -1,0 +1,13 @@
+
+#imgperfil {
+    border: ridge;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+   
+
+}
+.aboutme {
+    text-align:justify ;
+}
