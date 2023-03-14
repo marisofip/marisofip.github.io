@@ -3,15 +3,21 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light mb-3">
-			<Link to="/">
-				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-			</Link>
-			<div className="ml-auto">
-				<Link to="/demo">
-					<button className="btn btn-primary">Check the Context in action</button>
-				</Link>
-			</div>
-		</nav>
+    <>
+	 <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div className="container">
+                <a className="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Home</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mx-auto">
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" href="products.html">Products</a></li>
+                        <li className="nav-item px-lg-4"><a className="nav-link text-uppercase" href="store.html">Store</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </>
 	);
 };
