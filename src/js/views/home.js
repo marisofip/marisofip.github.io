@@ -3,21 +3,23 @@ import "../../styles/home.css";
 import perfil from "../../../src/img/perfil.jpg";
 
 export const Home = () => (
-  <div className="container">
-    <div className="team-member m-5 p-5 text-align-center">
+  <div className="container mt-5 p-5 bg-dark" id="inicio">
+    <div className="team-member m-5 p-5 text-align-center" >
       <img
         className="mx-auto rounded-circle"
         src={perfil}
         alt="..."
         id="imgperfil"
       />
-      <h4 className="text-align-center">
+      <h4 className="text-align-center text-white top-100">
         Mariandris Sofia <br />
         Brito Palencia
       </h4>
-      <p className="text-muted">Perfil</p>
-      
-        <h5 className="aboutme">
+	 
+      <p className="text-muted">Experiencia</p>
+	  </div>
+	  <div className="text">
+        <h7 className="aboutme">
           "Soy una desarrolladora Full-stack versátil, he trabajado con diversas
           tecnologías JS, ReactJS, Python, SQL y Bootstrap , lo que me permite
           conocer diferentes áreas y adaptarme a sus necesidades. Cuento con
@@ -35,7 +37,7 @@ export const Home = () => (
           proyectos y desarrollo de software para proyectos personales y en los
           cuales trabajé durante mis estudios como Full Stack.Estoy lista y
           entusiasmada por asumir el rol y los desafíos que se me presenten."
-        </h5>
+        </h7>
      
     </div>
   </div>
