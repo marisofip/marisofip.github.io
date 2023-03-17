@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    font-family:  Verdana, sans-serif
 }
 
 #exp{
@@ -17,6 +18,7 @@ body {
     place-items: center;
     margin: auto;
     padding-top: 20px;
+    border-radius: 15px
    
 }
  
@@ -76,11 +78,14 @@ body {
 
 .swiper {
     width: 1000px;
-    height: 600px;
+    height: 580px;
     background: #000;
       margin-top: 15px;
-  }
+      border-radius: 15px;
+     }
   
+  .mySwiper{ cursor:grab;
+     }
   .swiper-slide {
     font-size: 18px;
     color: #fff;
@@ -128,4 +133,14 @@ body {
     }
   }
 
- 
+ /*video*/
+ .player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

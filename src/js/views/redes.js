@@ -33,9 +33,9 @@ export const Redes = () => (
               className="col-4 bg-none"
               id="iconRedesback"
             >
-              <span>
+              <span> <a href="https://www.linkedin.com/in/marisofi/">
                 <img src={logo} style={{ marginRight: "5", alignItems: "center", width: "200px" }} />{" "}
-              </span>
+                </a> </span>
             </div>
           </div>
         </div>
@@ -56,9 +56,9 @@ export const Redes = () => (
               className="col-4 bg-none"
               id="iconRedesback"
             >
-              <span>
+              <span>  <a href="https://github.com/marisofip">
                 <img src={logo1} style={{ alignItems: "center", width: "280px" }} />{" "}
-              </span>
+                </a> </span>
             </div>
           </div>
         </div>
@@ -80,9 +80,9 @@ export const Redes = () => (
               className="col-4  bg-none"
               id="iconRedesback"
             >
-              <span>
+              <span> <a href="mailto:marisofipalencia@gmail.com">
                 <img src={logo2} style={{ alignItems: "center",  width: "300px" }} />{" "}
-              </span>
+                </a></span>
             </div>
           </div>
         </div>
