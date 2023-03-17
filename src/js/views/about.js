@@ -6,6 +6,6 @@ import experiencia from "../../../src/img/experiencia.png";
 
 export const About = () => (
 	< div className="container" id="exp">
-	          <img className="rounded mx-auto d-block img-fluid" src={experiencia} style={{borderRadius:"8px"}}/>      
+	          <img className="rounded mx-auto d-block img-fluid" src={experiencia} style={{borderRadius:"70%"}}/>      
 	</div>
 	)
