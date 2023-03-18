@@ -54,6 +54,8 @@ export const Portfolio = () => {
             aria-label="Basic outlined example"
           >
             <a
+            href="https://youtu.be/smwUuakyxQk"
+            target="_blank"
               type="button"
               id="button"
               className="btn btn-outline-dark text-white"
@@ -63,6 +65,7 @@ export const Portfolio = () => {
               <h5> Ver Demo</h5>{" "}
             </a>
             <a
+            
               type="button"
               id="button"
               className="btn btn-outline-dark text-white "
@@ -92,7 +95,8 @@ export const Portfolio = () => {
             aria-label="Basic outlined example"
           >
             <a
-            
+              href="https://youtu.be/XIL6qHaOuHk"
+              target="_blank"
               type="button"
               id="button"
               className="btn btn-outline-dark text-white"
@@ -131,6 +135,8 @@ export const Portfolio = () => {
             aria-label="Basic outlined example"
           >
             <a
+            href="https://youtu.be/nXs1NE20hiE"
+            target="_blank"
               type="button"
               id="button"
               className="btn btn-outline-dark text-white"
@@ -168,6 +174,8 @@ export const Portfolio = () => {
             aria-label="Basic outlined example"
           >
             <a
+            href="https://youtu.be/3slUjGigXOg"
+            target="_blank"
               type="button"
               id="button"
               className="btn btn-outline-dark text-white"
@@ -206,6 +214,8 @@ export const Portfolio = () => {
             aria-label="Basic outlined example"
           >
             <a
+            href="https://youtu.be/nbYJ0nxUZ_Q"
+            target="_blank"
               type="button"
               id="button"
               className="btn btn-outline-dark text-white"
