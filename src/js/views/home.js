@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import perfil from "../../../src/img/perfil.jpg";
+import perfil from "../../../dist/perfil.jpg";
 
 export const Home = () => (
   <div className="container mt-5 p-5 bg-dark" id="inicio">
