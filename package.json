@@ -1,5 +1,7 @@
 {
+	"homepage": "https://marisofip.github.io/medicenMarisofi",
 	"name": "react-hello-webapp",
+	"private": false,
 	"engines": {
 		"node": "16.x"
 	},
@@ -7,9 +9,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"predeploy": "npm run build",
 		"start": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
 		"build": "webpack --config webpack.prod.js",
-		"deploy": "node deploy-to-github.js"
+		"deploy": "gh-pages -d build"
 	},
 	"author": {
 		"name": "Alejandro Sanchez",
