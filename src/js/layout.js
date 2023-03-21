@@ -12,6 +12,7 @@ import { Footer } from "./component/footer";
 import { Portfolio } from "./views/portfolio";
 import { About } from "./views/about";
 import { Study } from "./views/estudios";
+import { Proyectos } from "./views/proyectos";
 //import {VideoPlayer} from "./views/videoPlayer";
 
 //create your first component
@@ -30,6 +31,7 @@ const Layout = () => {
 						<Route path="/sobremi" element={<About />} />
 						<Route path="/estudios" element={<Study />} />
 						<Route path="/portafolio" element={<Portfolio />} />
+						<Route path="/proyectos" element={<Proyectos />} />
 						<Route path="/contactame" element={<Redes />} />
 						{/*<Route path="/VideoPlayer" element={<VideoPlayer />} />*/}
 						<Route path="/single/:theid" element={<Single />} />

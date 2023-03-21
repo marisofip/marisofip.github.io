@@ -1,4 +1,4 @@
-#inicio{
+/*#inicio{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,21 @@
     
     
   
-}
+}*/
+
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 400) {
+    #inicio {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 #imgperfil {
     display: flex;
         border: ridge;

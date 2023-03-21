@@ -111,6 +111,20 @@ background: linear-gradient(90deg,black);
  transform: rotateY(-180deg);
 }
 
+/*PROYECTOS PAGE*/
+
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+}
+.btn{
+border: 0px;
+
+}
+
 /*PORTFOLIO PAGE*/
 
 .portfolio{

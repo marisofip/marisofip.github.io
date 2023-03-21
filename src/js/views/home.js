@@ -3,15 +3,15 @@ import "../../styles/home.css";
 import perfil from "../../../dist/perfil.jpg";
 
 export const Home = () => (
-  <div className="container mt-5 p-5 bg-dark" id="inicio" >
-    <div className="team-member m-5 text-align-center" >
+  <div className="container mt-5 p-5 bg-dark"  id="inicio" >
+    <div className="team-member text-align-center"  >
       <img
         className="mx-auto rounded-circle"
         src={perfil}
         alt="..."
         id="imgperfil"
       />
-      <h4 className="text-align-center text-white top-100">
+      <h4 className="text-align-center text-muted top-100">
       <br/>
         Mariandris Sofia <br />
         Brito Palencia

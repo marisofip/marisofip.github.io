@@ -19,7 +19,7 @@ export const Navbar = () => {
                             </a>
                          <ul className="dropdown-menu dropdown-menu-dark bg-black text-uppercase " aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><Link className="dropdown-item px-lg-4 " to="/sobremi">Experiencia Profesional</Link></li>
-                            <li><a className="dropdown-item px-lg-4 " href="#">Proyectos Personales</a></li>
+                            <li><Link className="dropdown-item px-lg-4 " to="/proyectos">Proyectos Personales</Link></li>
                             <li><Link className="dropdown-item px-lg-4 "to="/estudios">Estudios</Link></li>
                         </ul>
                         </div>
