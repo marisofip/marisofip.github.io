@@ -1,151 +1,179 @@
-/* 
-    General Styles
-*/
 
 
 body {
   
-    background-image: linear-gradient(15deg, #f86cb0 3%, #7cf2e4 100%);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    font-family:  Verdana, sans-serif;
-  margin: auto;
+  background-image: linear-gradient(15deg, #f86cb0 3%, #7cf2e4 100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family:  Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+ 
+
 }
 
-#exp{
-   
-    display: flex;
-    place-items: center;
-    padding-top: 45px;
-    border-radius: 15px;
-    width: 800px;
-    height: 400px;
-    margin-top: 40px;
-   
+#mainNav {
+width: 100%;
 }
+
+.footer{
+padding: 1em 0;
+margin-top: auto;
+
+}
+/*EXPERIENCIA PAGE*/
+
+#exp{
  
+  display: flex;
+  place-items: center;
+  padding-top: 45px;
+  border-radius: 15px;
+  width: 800px;
+  height: 400px;
+  margin-top: 40px;
+ 
+}
+
+/*CONTACTO PAGE*/
+
 #containerRedes {
-    
-     display:flex;
-     place-items: center;
-     padding: auto;
-     margin: auto;
   
-     
+   display:flex;
+   place-items: center;
+   padding: auto;
+   margin: auto;
+
+   
 }
 
 .containerCard{
-    
-    width: 300px; height: 300px;
-  margin: 25px;
-    perspective: 1000px;
-     background-color: transparent;
+  
+  width: 300px; height: 300px;
+margin: 25px;
+  perspective: 1000px;
+   background-color: transparent;
 }
 
 #wrapper{
 
- width: 100%; height: 100%;
- transition: all .7s;
- transform-style: preserve-3d;
+width: 100%; height: 100%;
+transition: all .7s;
+transform-style: preserve-3d;
 
 }
 
 #iconRedes{
-  background: linear-gradient(90deg, black);
+background: linear-gradient(90deg, black);
 }
 #iconRedesback{
-   transform: rotateY(-180deg);
-   background: linear-gradient(90deg,black);
+ transform: rotateY(-180deg);
+ background: linear-gradient(90deg,black);
 }
 
 #iconRedes , #iconRedesback {
-    position: absolute;
-    backface-visibility: hidden;
-    width: 300px;
-    height: 300px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  position: absolute;
+  backface-visibility: hidden;
+  width: 300px;
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 
 
 }
 .containerCard:hover #wrapper{
-    transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 
 
-/* css Portfolio*/
+/*PORTFOLIO PAGE*/
 
-
+.portfolio{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10%;
+padding: auto;
+}
 .swiper {
-    width: 1000px;
-    height: 580px;
-    background: #000;
-      margin-top: 15px;
-      border-radius: 15px;
-      margin-bottom: 15px;
-      padding-bottom: 15px;
-     }
-  
-  .mySwiper{ cursor:grab;
-     }
-  .swiper-slide {
-    font-size: 18px;
-    color: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 40px 60px;
-    height: 350px;
-    width: 200px;
-  }
- 
-  
-  .swiper-slide .title {
-    font-size: 41px;
-    font-weight: 300;
-  }
-  
-  .swiper-slide .subtitle {
-    font-size: 21px;
-  }
-  
-  .swiper-slide .text {
-    font-size: 14px;
-    max-width: 400px;
-    line-height: 1.3;
-  }
-  a {
-    text-decoration:none;
-    color:#FFF;
-  }
-  
-  .btn-group{
-    margin-top: 400px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    text-shadow: #fff;
-    width: 300px;
-    
-  }
+  width: 1000px;
+  height: 580px;
+  background: #000;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+   }
    
-  @keyframes slidebg {
-    to {
-      background-position:20vw;
-    }
-  }
 
- /*video*/
- .player-wrapper {
-  position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+.mySwiper{ cursor:grab;
+   }
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  height: 350px;
+  width: 200px;
+  max-width: 100%;
+}
+.img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom; 
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+a {
+  text-decoration:none;
+  color:#FFF;
+}
+
+.btn-group{
+  margin-top: 400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-shadow: #fff;
+  width: 300px;
+  
+}
+ 
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+/*video*/
+.player-wrapper {
+position: relative;
+padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
 
 .react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
+position: absolute;
+top: 0;
+left: 0;
 }

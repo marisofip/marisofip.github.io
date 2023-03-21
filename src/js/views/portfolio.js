@@ -20,10 +20,12 @@ import { Link } from "react-router-dom";
 export const Portfolio = () => {
   return (
     <>
+    < div className="portfolio" >
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
+          margin: "50px",
         }}
         speed={600}
         parallax={true}
@@ -36,7 +38,7 @@ export const Portfolio = () => {
       >
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
-        <SwiperSlide style={{ backgroundImage: `url(${eshop})` }}>
+        <SwiperSlide  className="img" style={{ backgroundImage: `url(${eshop})` }}>
           <div className="title text-white" data-swiper-parallax="-300">
             E-Commerce App
           </div>
@@ -76,7 +78,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url(${audioplay})` }}>
+        <SwiperSlide className="img" style={{ backgroundImage: `url(${audioplay})` }}>
           <div className="title" data-swiper-parallax="-300">
             Reproductor tipo Spotify
           </div>
@@ -116,7 +118,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url(${starwars})` }}>
+        <SwiperSlide className="img" style={{ backgroundImage: `url(${starwars})` }}>
           <div className="title text-white" data-swiper-parallax="-300">
            Web tipo Blog
           </div>
@@ -156,7 +158,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url(${tictac})` }}>
+        <SwiperSlide className="img" style={{ backgroundImage: `url(${tictac})` }}>
           <div className="title text-white" data-swiper-parallax="-300">
             Juego Tres en Raya
           </div>
@@ -195,7 +197,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url(${bubblesort})` }}>
+        <SwiperSlide className="img" style={{ backgroundImage: `url(${bubblesort})` }}>
           <div className="title text-white" data-swiper-parallax="-300">
           Juego Ordenando Cartas
           </div>
@@ -236,6 +238,7 @@ export const Portfolio = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 };
