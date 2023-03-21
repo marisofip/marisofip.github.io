@@ -4,35 +4,37 @@
     justify-content: center;
    margin-bottom: 10%;
     padding: auto;
-        border-radius: 15px;
+    border-radius: 15px;
     
     
     
   
 }
 #imgperfil {
-    border: ridge;
+    display: flex;
+        border: ridge;
     border-color: black;
     width: 200px;
     height: 200px;
     border-radius: 60%;
-    box-shadow : 0 0 80px rgb(248, 202, 237)
-   
+    box-shadow : 0 0 80px rgb(248, 202, 237);
+
 
 }
 .aboutme {
     text-align:justify ;
+    display: flex;
 }
 
 #imagen {
     display: flex;
-float: right;
+
     
 }
 
 .text {
     display: flex;
-float: left;
+
 color: rgb(181, 179, 179);
 text-shadow: 1cm;
     

@@ -29,8 +29,8 @@ const Layout = () => {
 						<Route path="/" element={<Home />} />
 						<Route path="/sobremi" element={<About />} />
 						<Route path="/estudios" element={<Study />} />
-						<Route path="/contactame" element={<Redes />} />
 						<Route path="/portafolio" element={<Portfolio />} />
+						<Route path="/contactame" element={<Redes />} />
 						{/*<Route path="/VideoPlayer" element={<VideoPlayer />} />*/}
 						<Route path="/single/:theid" element={<Single />} />
 						<Route path="*" element={<h1>Not found!</h1>} />

@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
@@ -17,7 +18,7 @@ export const Redes = () => (
       </div>
       <div className="row g-3" id="containerRedes">
         <div className="containerCard m-5 p-5">
-          <div id="wrapper">
+          <div id="wrapper"style={{width: "18rem"}}>
             <div
               className="col-4 bg-dark"
               id="iconRedes"
@@ -33,14 +34,14 @@ export const Redes = () => (
               className="col-4 bg-none"
               id="iconRedesback"
             >
-              <span> <a href="https://www.linkedin.com/in/marisofi/ "   target="_blank"> 
+              <span> <a href="https://www.linkedin.com/in/marisofi/" type="button" target="_blank"> 
                 <img src={logo} style={{ marginRight: "5", alignItems: "center", width: "200px" }} />{" "}
                 </a> </span>
             </div>
           </div>
         </div>
         <div className="containerCard m-5 p-5">
-          <div id="wrapper">
+          <div id="wrapper" style={{width: "18rem"}}>
             <div
               className="col-4 bg-dark"
               id="iconRedes"
@@ -56,7 +57,7 @@ export const Redes = () => (
               className="col-4 bg-none"
               id="iconRedesback"
             >
-              <span>  <a href="https://github.com/marisofip"  target="_blank">
+              <span>  <a href="https://github.com/marisofip"   type="button"  target="_blank">
                 <img src={logo1} style={{ alignItems: "center", width: "280px" }} />{" "}
                 </a> </span>
             </div>
@@ -64,7 +65,7 @@ export const Redes = () => (
         </div>
 
         <div className="containerCard m-5 p-5">
-          <div id="wrapper">
+          <div id="wrapper"style={{width: "18rem"}}>
             <div
               className="col-4 bg-dark"
               id="iconRedes"
@@ -80,7 +81,7 @@ export const Redes = () => (
               className="col-4  bg-none"
               id="iconRedesback"
             >
-              <span> <a href="mailto:marisofipalencia@gmail.com"  target="_blank">
+              <span> <a href="mailto:marisofipalencia@gmail.com" type="button" target="_blank">
                 <img src={logo2} style={{ alignItems: "center",  width: "300px" }} />{" "}
                 </a></span>
             </div>

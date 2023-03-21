@@ -1,9 +1,9 @@
 import React,  { useRef, useState } from "react";
-import eshop from "../../../src/img/eshop.png";
-import audioplay from "../../../src/img/audioplay.png";
-import starwars from "../../../src/img/starwars.png";
-import tictac from "../../../src/img/tictac.png";
-import bubblesort from "../../../src/img/bubblesort.png";
+import eshop from "../../../dist/eshop.png";
+import audioplay from "../../../dist/audioplay.png";
+import starwars from "../../../dist/starwars.png";
+import tictac from "../../../dist/tictac.png";
+import bubblesort from "../../../dist/bubblesort.png";
 
 
 // Import Swiper React components
@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 export const Portfolio = () => {
   return (
     <>
-    < div className="portfolio" >
+    < div className="portfolio img-fluid" id="inicio" >
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",

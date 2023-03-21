@@ -3,7 +3,7 @@ import "../../styles/home.css";
 import perfil from "../../../dist/perfil.jpg";
 
 export const Home = () => (
-  <div className="container mt-5 p-5 bg-dark" id="inicio">
+  <div className="container mt-5 p-5 bg-dark" id="inicio" >
     <div className="team-member m-5 text-align-center" >
       <img
         className="mx-auto rounded-circle"

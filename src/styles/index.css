@@ -14,6 +14,18 @@ body {
  
 
 }
+#inicio{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+ margin-bottom: 10%;
+  padding: auto;
+  border-radius: 15px;
+  margin-top: 50px;
+
+}
+
+
 
 #mainNav {
 width: 100%;
@@ -22,6 +34,8 @@ width: 100%;
 .footer{
 padding: 1em 0;
 margin-top: auto;
+
+
 
 }
 /*EXPERIENCIA PAGE*/
@@ -41,21 +55,23 @@ margin-top: auto;
 /*CONTACTO PAGE*/
 
 #containerRedes {
-  
-   display:flex;
-   place-items: center;
-   padding: auto;
-   margin: auto;
-
-   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  #containerRedes {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .containerCard{
-  
-  width: 300px; height: 300px;
+ 
+ width: 300px; height: 300px;
 margin: 25px;
-  perspective: 1000px;
-   background-color: transparent;
+ perspective: 1000px;
+  background-color: transparent;
 }
 
 #wrapper{
@@ -66,30 +82,34 @@ transform-style: preserve-3d;
 
 }
 
+@media screen and (max-width: 400) {
+  .wrapper {
+    display: block;
+  }
+}
 #iconRedes{
 background: linear-gradient(90deg, black);
 }
 #iconRedesback{
- transform: rotateY(-180deg);
- background: linear-gradient(90deg,black);
+transform: rotateY(-180deg);
+background: linear-gradient(90deg,black);
 }
 
 #iconRedes , #iconRedesback {
-  position: absolute;
-  backface-visibility: hidden;
-  width: 300px;
-  height: 300px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+ position: absolute;
+ backface-visibility: hidden;
+ width: 300px;
+ height: 300px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
 
 
 }
 .containerCard:hover #wrapper{
-  transform: rotateY(-180deg);
+ transform: rotateY(-180deg);
 }
-
 
 /*PORTFOLIO PAGE*/
 
