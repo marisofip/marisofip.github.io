@@ -20,13 +20,12 @@ import { Link } from "react-router-dom";
 export const Portfolio = () => {
   return (
     <>
-    < div className="portfolio img-fluid" id="inicio" >
+    < div className="portfolio img-fluid"  >
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-          margin: "50px",
-        }}
+            }}
         speed={600}
         parallax={true}
         pagination={{
@@ -78,7 +77,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="img" style={{ backgroundImage: `url(${audioplay})` }}>
+        <SwiperSlide className="imagen" style={{ backgroundImage: `url(${audioplay})` }}>
           <div className="title" data-swiper-parallax="-300">
             Reproductor tipo Spotify
           </div>

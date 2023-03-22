@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.css";
 import perfil from "../../../dist/perfil.jpg";
+import { About } from "../views/about";
 
 export const Home = () => (
   <div className="container mt-5 p-5 bg-dark"  id="inicio" >
@@ -40,5 +41,6 @@ export const Home = () => (
         </h6>
      
     </div>
+  <About/>
   </div>
 );
